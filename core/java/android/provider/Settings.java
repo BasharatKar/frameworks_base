@@ -5401,6 +5401,12 @@ public final class Settings {
          */
         public static final String APP_SWITCH_WAKE_SCREEN = "app_switch_wake_screen";
 
+	/**
+         * Allow users to pull down the status bar quickly
+         * @hide
+         */
+        public static final String STATUS_BAR_QUICK_QS_PULLDOWN = "status_bar_quick_qs_pulldown";
+
         /**
          * Whether to wake the screen with the camera key half-press.
          * 0 = 0ff, 1 = on
