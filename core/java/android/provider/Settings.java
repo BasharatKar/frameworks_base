@@ -5408,6 +5408,13 @@ public final class Settings {
          */
         public static final String CAMERA_WAKE_SCREEN = "camera_wake_screen";
 
+	/**
+         * Whether to wake the display when plugging or unplugging the charger
+         *
+         * @hide
+         */
+        public static final String WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
+
         /**
          * Whether or not to send device back to sleep if Camera button is released ("Peek")
          * 0 = 0ff, 1 = on
