@@ -5297,6 +5297,12 @@ public final class Settings {
          */
         public static final String MENU_WAKE_SCREEN = "menu_wake_screen";
 
+	/**
+         * Whether to show the battery info on the lockscreen while charging
+         * @hide
+         */
+        public static final String LOCKSCREEN_BATTERY_INFO = "lockscreen_battery_info";
+
         /**
          * Whether to wake the screen with the assist key, the value is boolean.
          * 0 = 0ff, 1 = on
